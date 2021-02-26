@@ -131,12 +131,15 @@ input:focus{
     right: 20px;
     display: none;
     transition: all 1s ease;
-    box-shadow: 1px 1px 5px rgba(66, 66, 66, 0.692);
+    box-shadow: 1px 1px 8px rgba(66, 66, 66, 0.692);
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 250px;
 }
 
 .card-item{
     text-align: center;
-    padding: 15px;
+    padding: 15px 20px;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -161,7 +164,7 @@ input:focus{
 
 .card-items{
     display: grid;
-    grid-template-columns: 60px 60px 60px;
+    grid-template-columns: 100px 100px 100px;
     grid-template-rows: auto;
 }
 
